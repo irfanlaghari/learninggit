@@ -1,0 +1,35 @@
+.prop__container {
+  font-family: lucida sans, Verdana, Helvetica, Arial, sans-serif;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  width: 60rem;
+  height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e5e5e573;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.prop__container__pic,
+.prop__container__purpose,
+.prop__container__bed,
+.prop__container__bath {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  flex: 1;
+}
+.prop__container__pic > img {
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.prop__container__title {
+  flex: 2;
+}
+
